@@ -1,0 +1,87 @@
+{
+  "20": {
+    "items": [
+      {"width": 3, "text": "아티클", "color": "yellow"},
+      {"width": 4, "text": "영상", "color": "blue"},
+      {"width": 5, "text": "링크", "color": "red"},
+      {"width": 6, "text": "링크", "color": "red"},
+      {"width": 7, "text": "링크", "color": "red"}
+    ]
+  },
+  "21": {
+    "items": [
+      {"width": 5, "text": "샘플", "color": "yellow"},
+      {"width": 5, "text": "제품", "color": "blue"},
+      {"width": 5, "text": "영상", "color": "red"}
+    ]
+  },
+  "22": {
+    "items": [
+      {"width": 6, "text": "제품", "color": "yellow"},
+      {"width": 6, "text": "검색", "color": "blue"},
+      {"width": 4, "text": "개인화", "color": "red"}
+    ]
+  },
+  "23": {
+    "items": [
+      {"width": 5, "text": "샘플", "color": "yellow"},
+      {"width": 5, "text": "제품", "color": "blue"},
+      {"width": 5, "text": "영상", "color": "red"}
+    ]
+  },
+  "24": {
+    "items": [
+      {"width": 5, "text": "샘플", "color": "yellow"},
+      {"width": 5, "text": "제품", "color": "blue"},
+      {"width": 5, "text": "영상", "color": "red"}
+    ]
+  },
+  "25": {
+    "items": [
+      {"width": 5, "text": "샘플", "color": "yellow"},
+      {"width": 5, "text": "제품", "color": "blue"},
+      {"width": 5, "text": "영상", "color": "red"}
+    ]
+  },
+  "26": {
+    "items": [
+      {"width": 5, "text": "샘플", "color": "yellow"},
+      {"width": 3, "text": "제품", "color": "blue"},
+      {"width": 5, "text": "영상", "color": "red"}
+    ]
+  },
+  "27": {
+    "items": [
+      {"width": 5, "text": "샘플", "color": "yellow"},
+      {"width": 9, "text": "제품", "color": "blue"},
+      {"width": 5, "text": "영상", "color": "red"}
+    ]
+  },
+  "28": {
+    "items": [
+      {"width": 3, "text": "아티클", "color": "yellow"},
+      {"width": 4, "text": "영상", "color": "blue"},
+      {"width": 5, "text": "링크", "color": "red"},
+      {"width": 6, "text": "영상", "color": "red"},
+      {"width": 7, "text": "영상", "color": "red"}
+    ]
+  },
+  "29": {
+    "items": [
+      {"width": 3, "text": "아티클", "color": "yellow"},
+      {"width": 4, "text": "영상", "color": "blue"},
+      {"width": 5, "text": "링크", "color": "red"},
+      {"width": 6, "text": "아티클", "color": "red"},
+      {"width": 7, "text": "링크", "color": "red"}
+    ]
+  },
+  "30": {
+    "items": [
+      {"width": 3, "text": "아티클", "color": "yellow"},
+      {"width": 4, "text": "영상", "color": "blue"},
+      {"width": 5, "text": "아티클", "color": "red"},
+      {"width": 6, "text": "링크", "color": "red"},
+      {"width": 3, "text": "아티클", "color": "red"}
+    ]
+  }
+}
