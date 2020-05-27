@@ -32,7 +32,7 @@ const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={{padding: 20}}>
+      <SafeAreaView>
         {/* list virtualized를 위한 FlatList 사용 */}
         <FlatList
           ref={listRef}
