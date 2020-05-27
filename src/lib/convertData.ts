@@ -36,31 +36,6 @@ export function getValue(data: {}) {
   return result;
 }
 
-export function getMonths(pastYearRange: number, futureYearRange: number) {
-  const currentYear = moment().year();
-  const startYear = currentYear - pastYearRange;
-  const endYear = currentYear + futureYearRange;
-
-  const months: any = [];
-  for (let i = 0; i < endYear - startYear; i++) {
-    const year = startYear + i;
-    for (let i = 0; i < 12; i++) {
-      let id = '';
-      if (i < 9) {
-        id = `${year}-0${i + 1}`;
-      } else {
-        id = `${year}-${i + 1}`;
-      }
-      months.push({
-        id,
-        year,
-        month: i + 1,
-      });
-    }
-  }
-  return months;
-}
-
 export function getWeeks(
   month: string,
   startDate: string | null,
@@ -135,12 +110,6 @@ export function getWeeks(
   } while (currentDate.month() == currentMonth);
 
   return weeks;
-}
-
-export function getUniqueMessageId(userId: string) {
-  const id = uuidv3(`${new Date().getTime()}${userId}`, uuidv3.DNS);
-  const customId = id.replace(/-/gi, '').slice(0, 25);
-  return customId;
 }
 
 export function getSlicedPosts(posts: getPosts) {
