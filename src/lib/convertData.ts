@@ -3,7 +3,7 @@ export function abbrNum(n: number, precision: number) {
   const floor = Math.floor;
   const abs = Math.abs;
   const log = Math.log;
-  const abbrev = 'kmb'; // could be an array of strings: [' m', ' Mo', ' Md']
+  const abbrev = 'kmb'; //[' m', ' Mo', ' Md']
 
   function round(n, precision) {
     const prec = Math.pow(10, precision);
@@ -18,6 +18,12 @@ export function abbrNum(n: number, precision: number) {
   }
 
   return format(n);
+}
+
+export function getStopWatchTimeString(seconds: number) {
+  const m = parseInt(String((seconds % (60 * 60)) / 60));
+  const s = parseInt(String(seconds % 60));
+  return (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
 }
 
 export function getValue(data: {}) {
